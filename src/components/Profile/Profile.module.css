@@ -1,0 +1,75 @@
+@import "../../vars.css";
+
+/* Profile.module.css */
+.profileSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--color-bg);
+    text-align: center;
+}
+
+.profileName {
+    font-family: var(--font-vibes), cursive;
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 62px;
+    padding: 12px;
+}
+
+.profileTitle {
+    font-size: 24px;
+    color: var(--color-primary);
+    margin: 0;
+}
+
+/* Animação de digitação */
+@keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter 4s steps(40, end);
+    width: 100%;
+}
+
+.typewriterTitle {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter 4s steps(40, end);
+    width: 100%;
+    font-size: 24px;
+}
+
+.topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    max-width: 350px;
+    top: -128px;
+    left: -10vw;
+    border-radius: 764px;
+    background-color: var(--color-dark);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.bottomBlur {
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 350px;
+    max-width: 250px;
+    top: -246px;
+    left: -25vw;
+    border-radius: 764px;
+    background-color: var(--color-dark);
+    filter: blur(100px);
+    z-index: 0;
+}

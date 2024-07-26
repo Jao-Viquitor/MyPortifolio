@@ -1,0 +1,34 @@
+[
+  {
+    "role": "Software Engineer",
+    "organization": "cafezinho",
+    "startDate": "Dec, 2023",
+    "endDate": "Present",
+    "experiences": [
+      "Facilitated and ensured the team followed agile practices",
+      "Defined and prioritized the backlog",
+      "Provided technical guidance, ensured code quality, and reviewed documentation",
+      "Managed the development team and ensured project delivery",
+      "Prototyping, development, and bug fixing of features"
+    ]
+  },
+  {
+    "role": "UI Designer",
+    "organization": "Microsoft",
+    "startDate": "Aug, 2021",
+    "endDate": "Aug, 2022",
+    "experiences": ["Worked on Windows 11", "Designed the control panel"],
+    "imageSrc": "history/microsoft.png"
+  },
+  {
+    "role": "SWE Intern",
+    "organization": "Netflix",
+    "startDate": "Apr, 2020",
+    "endDate": "Jun, 2020",
+    "experiences": [
+      "Worked on component library",
+      "Helped create UI components"
+    ],
+    "imageSrc": "history/netflix.png"
+  }
+]

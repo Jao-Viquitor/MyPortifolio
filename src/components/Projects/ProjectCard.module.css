@@ -1,0 +1,67 @@
+@import "../../vars.css";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background: var(--color-secondary);
+    box-shadow: 0 0 4px 0 var(--color-dark);
+    padding: 16px 24px;
+    max-width: 345px;
+}
+
+.image {
+    margin-bottom: 26px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Cinzel Decorative", serif;
+}
+
+.description {
+    font-size: 16px;
+    font-family: var(--font-spectral), serif;
+    margin-top: 12px;
+    font-weight: 300;
+}
+
+.skills {
+    width: 100%;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+}
+
+.skill {
+    text-decoration: none;
+    font-family: var(--font-spectral), serif;
+    background-color: var(--color-dark);
+    color: var(--color-text);
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 8px 12px;
+    box-shadow: 0 0 4px 0 var(--color-dark);
+}
+
+.links {
+    width: 100%;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 100px;
+    background: var(--color-dark);
+    padding: 8px 12px;
+}

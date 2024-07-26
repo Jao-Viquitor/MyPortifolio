@@ -1,0 +1,23 @@
+@import "../../vars.css";
+
+.container {
+    color: var(--color-text);
+    margin: 62px 10% 120px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Cinzel Decorative", serif;
+}
+
+.projects {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+}

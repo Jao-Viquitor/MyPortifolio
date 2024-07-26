@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+:root {
+    /* Colors */
+    --color-text: #F2F2F2;
+    --color-primary: #F2F2F2;
+    --color-secondary: #112A46;
+    --color-dark: rgba(5, 17, 25, 1);
+    --color-bg: linear-gradient(
+            90deg,
+            rgba(15, 32, 39, 1) 50%,
+            rgba(32,58,67, 1) 75%,
+            rgba(44,83,100, 1) 120%);
+
+    /* Fonts */
+    --font-spectral: "Spectral", serif;
+    --font-cinzel: "Cinzel Decorative", serif;
+    --font-vibes: "Great Vibes", cursive;
+}

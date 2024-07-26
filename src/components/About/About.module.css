@@ -1,0 +1,98 @@
+@import "../../vars.css";
+
+.backgroundTitle {
+    position: absolute;
+    font-size: 10vw;
+    font-weight: 700;
+    color: var(--color-dark);
+    top: 50%;
+    left: 0;
+    transform: translate(-100%, -50%);
+    z-index: 0;
+    white-space: nowrap;
+    opacity: 0;
+    transition: transform 3s ease-out, opacity 2s ease-out;
+}
+
+.backgroundTitle.visible {
+    transform: translate(0, -50%);
+    opacity: 1;
+}
+
+.container {
+    position: relative;
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    height: 100vh;
+    justify-content: flex-end;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+}
+
+.aboutItems {
+    width: 50%;
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.aboutItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    list-style: none;
+    padding: 24px;
+    background: var(--color-secondary);
+    box-shadow: 0 0 4px 0 var(--color-dark);
+    position: relative;
+    z-index: 1; /* Ensure above the background title */
+}
+
+.icon {
+    width: 70px;
+    margin-right: 24px;
+    margin-left: 12px;
+}
+
+.aboutItem h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.aboutItem p {
+    font-size: 14px;
+    font-family: var(--font-spectral), serif;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 24px;
+        justify-content: center;
+        height: auto;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutItems {
+        margin-top: 24px;
+        align-items: center;
+    }
+
+}
