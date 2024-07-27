@@ -2,7 +2,7 @@
 
 .container {
     color: var(--color-text);
-    margin-top: 100px;
+    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
     min-height: 100vh;
@@ -17,16 +17,42 @@
     font-family: "Cinzel Decorative", serif;
 }
 
+.skillsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.skillsSection {
+    flex: 1;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.subTitle {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    font-family: "Cinzel Decorative", serif;
+}
+
 .content {
     display: flex;
     flex-direction: row;
+    margin-top: 12px;
+}
+
+.contentSkills{
+    display: flex;
     justify-content: space-between;
-    margin-top: 32px;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .skills {
-    width: 45%;
-    height: 50%;
+    width: 85%;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -34,10 +60,9 @@
 
 .skill {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 6px;
 }
 
 .skillImageContainer {
@@ -46,12 +71,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
 }
 
 .skillImageContainer img {
-    width: 50px;
+    width: 35px;
 }
 
 .skill p {
@@ -127,6 +152,6 @@
 
     .history {
         width: 100%;
-        gap: 9px;
+        gap: 12px;
     }
 }

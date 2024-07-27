@@ -56,7 +56,7 @@
     background: var(--color-secondary);
     box-shadow: 0 0 4px 0 var(--color-dark);
     position: relative;
-    z-index: 1; /* Ensure above the background title */
+    z-index: 1;
 }
 
 .icon {
@@ -83,16 +83,27 @@
         margin-left: 24px;
         justify-content: center;
         height: auto;
+        margin-top: 15%;
     }
 
     .content {
         flex-direction: column;
         align-items: center;
+        margin-top: 10%;
     }
 
     .aboutItems {
-        margin-top: 24px;
         align-items: center;
+        padding: 4px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .backgroundTitle {
+        align-items: start;
+        top: 0;
     }
 
 }

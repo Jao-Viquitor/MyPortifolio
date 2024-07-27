@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Flutter",
+    "imageSrc": "skills/graphql.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "Spring",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "Laravel",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "ASP.NET & .NET",
+    "imageSrc": "skills/node.png"
+  }
+]

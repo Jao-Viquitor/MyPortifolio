@@ -1,6 +1,5 @@
 @import "../../vars.css";
 
-/* Profile.module.css */
 .profileSection {
     display: flex;
     flex-direction: column;
@@ -15,35 +14,29 @@
     font-family: var(--font-vibes), cursive;
     color: var(--color-primary);
     font-weight: 500;
-    font-size: 62px;
-    padding: 12px;
+    font-size: 82px;
 }
 
 .profileTitle {
     font-size: 24px;
     color: var(--color-primary);
-    margin: 0;
 }
 
-/* Animação de digitação */
 @keyframes typewriter {
     from { width: 0; }
-    to { width: 100%; }
+    to { width: 110%; }
 }
 
 .typewriter {
     overflow: hidden;
     white-space: nowrap;
-    animation: typewriter 4s steps(40, end);
-    width: 100%;
+    animation: typewriter 4s steps(50, end);
 }
 
 .typewriterTitle {
     overflow: hidden;
     white-space: nowrap;
-    animation: typewriter 4s steps(40, end);
-    width: 100%;
-    font-size: 24px;
+    animation: typewriter 4s steps(50, end);
 }
 
 .topBlur {
@@ -72,4 +65,14 @@
     background-color: var(--color-dark);
     filter: blur(100px);
     z-index: 0;
+}
+
+@media screen and (max-width: 830px) {
+    .profileName {
+        font-size: 52px;
+    }
+
+    .profileTitle {
+        font-size: 16px;
+    }
 }

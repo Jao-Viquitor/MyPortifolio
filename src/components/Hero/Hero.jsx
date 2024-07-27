@@ -49,19 +49,14 @@ export const Hero = () => {
                        className={styles.contactBtn}>
                         Learn more
                     </a>
-                    <a href="https://docs.google.com/document/d/1WJGKfQKVAQM3AQccVivVft14ZwCXmlrH9BHYjavrBI4/export?format=pdf"
+                    <a href="https://resume-joao-victor.vercel.app/resume-joao-victor.pdf"
                        className={styles.contactBtn}>
                         Download Resume
                     </a>
                         <p className={styles.description} style={{textWrap: 'nowrap'}}>
                             <a href="https://dev.to/viquitor"
                                className={styles.articleLink}>
-                                Read my articles
-                                <img
-                                    src={getImageUrl("hero/arrow.png")}
-                                    alt="Arrow for link"
-                                    style={{width: '10%'}}
-                                />
+                                Read my articles &rarr;
                             </a>
                         </p>
                 </div>

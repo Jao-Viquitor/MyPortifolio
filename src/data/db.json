@@ -1,0 +1,14 @@
+[
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/graphql.png"
+  },
+  {
+    "title": "PostgresSQL",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/html.png"
+  }
+]
