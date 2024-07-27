@@ -35,6 +35,7 @@
     flex-wrap: wrap;
     gap: 8px;
     list-style: none;
+    justify-content: center;
 }
 
 .skill {
@@ -53,7 +54,8 @@
     width: 100%;
     margin-top: 12px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 12px;
 }
 
 .link {

@@ -2,10 +2,11 @@
 
 .container {
     color: var(--color-text);
-    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    min-height: 100vh;
+    margin-top: 10%;
+    height: 100vh;
+    justify-content: center;
     display: flex;
     flex-direction: column;
 }
