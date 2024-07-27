@@ -3,15 +3,14 @@ import styles from "./Projects.module.css";
 import { ProjectCard } from "./ProjectCard.jsx";
 
 export const Projects = () => {
-    seEffect(() => {
+    const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
         const fetchProjects = async () => {
             const response = await fetch('https://api.github.com/users/Jao-Viquitor/repos');
             const data = await response.json();
-
-            const sortedData = data.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
-
             const projectsWithLanguages = await Promise.all(
-                sortedData.map(async repo => {
+                data.map(async repo => {
                     const languagesResponse = await fetch(repo.languages_url);
                     const languagesData = await languagesResponse.json();
                     const languages = Object.keys(languagesData).slice(0, 3);
@@ -25,7 +24,6 @@ export const Projects = () => {
                     };
                 })
             );
-
             setProjects(projectsWithLanguages);
         };
 
