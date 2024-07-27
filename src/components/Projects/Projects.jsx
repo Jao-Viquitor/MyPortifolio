@@ -1,11 +1,35 @@
-import React from "react";
-
+import React, { useEffect, useState } from "react";
 import styles from "./Projects.module.css";
-
-import projects from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard.jsx";
 
 export const Projects = () => {
+    const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+        const fetchProjects = async () => {
+            const response = await fetch('https://api.github.com/users/Jao-Viquitor/repos');
+            const data = await response.json();
+            const projectsWithLanguages = await Promise.all(
+                data.map(async repo => {
+                    const languagesResponse = await fetch(repo.languages_url);
+                    const languagesData = await languagesResponse.json();
+                    const languages = Object.keys(languagesData).slice(0, 3);
+                    return {
+                        title: repo.name,
+                        imageSrc: "projects/project.png",
+                        description: repo.description,
+                        skills: languages,
+                        demo: repo.homepage,
+                        source: repo.html_url
+                    };
+                })
+            );
+            setProjects(projectsWithLanguages);
+        };
+
+        fetchProjects();
+    }, []);
+
     return (
         <section className={styles.container} id="projects">
             <h2 className={styles.title}>Projects</h2>
