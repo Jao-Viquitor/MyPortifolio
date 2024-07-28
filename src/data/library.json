@@ -1,10 +1,10 @@
 [
   {
     "title": "Boostrap",
-    "imageSrc": "skills/graphql.png"
+    "imageSrc": "library/boostrap.svg"
   },
   {
     "title": "TailwindCSS",
-    "imageSrc": "skills/html.png"
+    "imageSrc": "library/tailwind.svg"
   }
 ]

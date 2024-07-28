@@ -1,22 +1,22 @@
 [
   {
     "title": "Flutter",
-    "imageSrc": "skills/graphql.png"
+    "imageSrc": "frameworks/flutter.svg"
   },
   {
     "title": "React",
-    "imageSrc": "skills/html.png"
+    "imageSrc": "frameworks/react.svg"
   },
   {
     "title": "Spring",
-    "imageSrc": "skills/css.png"
+    "imageSrc": "frameworks/spring.svg"
   },
   {
     "title": "Laravel",
-    "imageSrc": "skills/react.png"
+    "imageSrc": "frameworks/laravel.svg"
   },
   {
-    "title": "ASP.NET & .NET",
-    "imageSrc": "skills/node.png"
+    "title": "Android",
+    "imageSrc": "frameworks/android.svg"
   }
 ]

@@ -1,14 +1,14 @@
 [
   {
     "title": "MySQL",
-    "imageSrc": "skills/graphql.png"
+    "imageSrc": "databases/mysql.svg"
   },
   {
     "title": "PostgresSQL",
-    "imageSrc": "skills/html.png"
+    "imageSrc": "databases/postgresql.svg"
   },
   {
     "title": "MongoDB",
-    "imageSrc": "skills/html.png"
+    "imageSrc": "databases/mongodb.svg"
   }
 ]

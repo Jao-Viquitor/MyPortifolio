@@ -1,38 +1,38 @@
 [
   {
     "title": "Java",
-    "imageSrc": "skills/html.png"
+    "imageSrc": "skills/java.svg"
   },
   {
     "title": "Kotlin",
-    "imageSrc": "skills/css.png"
+    "imageSrc": "skills/kotlin.svg"
   },
   {
     "title": "C & C#",
-    "imageSrc": "skills/react.png"
+    "imageSrc": "skills/c.svg"
   },
   {
     "title": "Prolog",
-    "imageSrc": "skills/node.png"
+    "imageSrc": "skills/prolog.svg"
   },
   {
     "title": "Javascript",
-    "imageSrc": "skills/graphql.png"
+    "imageSrc": "skills/javascript.svg"
   },
   {
     "title": "Haskell",
-    "imageSrc": "skills/mongodb.png"
+    "imageSrc": "skills/haskell.svg"
   },
   {
     "title": "PHP",
-    "imageSrc": "skills/figma.png"
+    "imageSrc": "skills/php.png"
   },
   {
     "title": "TypeScript",
-    "imageSrc": "skills/figma.png"
+    "imageSrc": "skills/typescript.svg"
   },
   {
     "title": "SQL",
-    "imageSrc": "skills/figma.png"
+    "imageSrc": "skills/sql.svg"
   }
 ]
