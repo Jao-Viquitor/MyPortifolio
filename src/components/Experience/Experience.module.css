@@ -138,11 +138,19 @@
 }
 
 @media screen and (max-width: 830px) {
+    .container {
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 5%;
+        margin-left: 5%;
+
+        justify-content: center;
+        height: auto;
+    }
+
     .content {
         flex-direction: column;
         align-items: center;
-        gap: 34px;
-        width: 100%;
     }
 
     .skills {
@@ -154,5 +162,14 @@
     .history {
         width: 100%;
         gap: 12px;
+        margin-left: 5%;
+    }
+
+    .skillsContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10%;
     }
 }

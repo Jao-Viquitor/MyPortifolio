@@ -14,7 +14,9 @@ export const ProjectCard = ({ project }) => {
                 className={styles.image}
             />
             <h3 className={styles.title}>{title}</h3>
-            <p className={styles.description}>{description}</p>
+            <div className={styles.descContainer}>
+                <p className={styles.description}>{description}</p>
+            </div>
             <ul className={styles.skills}>
                 {skills.map((skill, id) => (
                     <li key={id} className={styles.skill}>
