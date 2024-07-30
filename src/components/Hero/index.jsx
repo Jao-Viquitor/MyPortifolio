@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
-export const Hero = () => {
+export const Index = () => {
     return (
         <section className={styles.container}>
             <div className={styles.content}>
@@ -42,19 +42,17 @@ export const Hero = () => {
                     victorsantos.ft18@gmail.com
                 </a>
                 </p>
-
-
                 <div className={styles.contentBtn}>
-                    <a href="https://viquitor-me.vercel.app"
+                    <a target="_blank" rel="noopener noreferrer" href="https://viquitor-me.vercel.app"
                        className={styles.contactBtn}>
                         Learn more
                     </a>
-                    <a href="https://resume-joao-victor.vercel.app/resume-joao-victor.pdf"
+                    <a target="_blank" rel="noopener noreferrer" href="https://resume-joao-victor.vercel.app/resume-joao-victor.pdf"
                        className={styles.contactBtn}>
                         Download Resume
                     </a>
                         <p className={styles.description} style={{textWrap: 'nowrap'}}>
-                            <a href="https://dev.to/viquitor"
+                            <a target="_blank" rel="noopener noreferrer" href="https://dev.to/viquitor"
                                className={styles.articleLink}>
                                 Read my articles &rarr;
                             </a>
@@ -64,7 +62,7 @@ export const Hero = () => {
             </div>
             <img
                 src={getImageUrl("hero/profile.png")}
-                alt="Hero image of me"
+                alt="Index image of me"
                 className={styles.heroImg}
             />
 

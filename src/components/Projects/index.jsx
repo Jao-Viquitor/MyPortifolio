@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import styles from "./Projects.module.css";
 import { ProjectCard } from "./ProjectCard.jsx";
 
-export const Projects = () => {
+export const Projects
+    = () => {
     const [projects, setProjects] = useState([]);
     const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN;
 
