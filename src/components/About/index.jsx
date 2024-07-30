@@ -47,7 +47,7 @@ export const About = () => {
                         <div>
                             <h4>Front End Developer</h4>
                             <p>
-                                I’m a passionate frontend developer with a talent for creating dynamic mobile applications
+                                I’m a frontend developer with a talent for creating dynamic mobile applications
                                 and responsive websites. I love turning innovative ideas into reality.
                             </p>
                         </div>
@@ -59,7 +59,7 @@ export const About = () => {
                         <div>
                             <h4>Backend Developer</h4>
                             <p>
-                                I’m a passionate backend developer with a knack for building lightning-fast systems and robust APIs,
+                                I’m a backend developer with a knack for building lightning-fast systems and robust APIs,
                                 turning innovative ideas into powerful solutions.
                             </p>
                         </div>
@@ -71,7 +71,7 @@ export const About = () => {
                         <div>
                             <h4>UI Designer</h4>
                             <p>
-                                I’m a passionate UI/UX designer with a talent for crafting intuitive and engaging user
+                                I’m UI/UX designer with a talent for crafting intuitive and engaging user
                                 interfaces, transforming creative ideas into seamless experiences.
                             </p>
                         </div>
@@ -83,7 +83,7 @@ export const About = () => {
                         <div>
                             <h4>Software Engineer</h4>
                             <p>
-                                I’m a passionate Software Engineer dedicated to innovation and excellence,
+                                I’m a Software Engineer dedicated to innovation and excellence,
                                 inspiring and leading my team to success in every project.
                             </p>
                         </div>
