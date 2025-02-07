@@ -9,8 +9,7 @@ export const Index = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I’m Victor</h1>
                 <h2 className={styles.subTitle}>
-                    Software Engineer, <br/>
-                    Scrum Master
+                    Software Engineer <br/>
                     & Frontend Developer
                 </h2>
                 <p className={styles.description}>

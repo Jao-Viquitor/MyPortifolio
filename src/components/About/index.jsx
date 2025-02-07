@@ -20,7 +20,7 @@ export const About = () => {
                 });
             },
             {
-                threshold: 0.5, // 50% visível
+                threshold: 0.5,
             }
         );
 

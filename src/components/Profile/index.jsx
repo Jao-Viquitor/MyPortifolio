@@ -6,8 +6,7 @@ export const Profile = () => {
         <section className={styles.profileSection}>
             <h1 className={`${styles.profileName} ${styles.typewriter}`}>João
                 Victor Santos</h1>
-            <p className={`${styles.profileTitle} ${styles.typewriterTitle}`}>UI/UX
-                Designer & Developer</p>
+            <p className={`${styles.profileTitle} ${styles.typewriterTitle}`}>Software Engineer</p>
             <div className={styles.topBlur}/>
             <div className={styles.bottomBlur}/>
         </section>
